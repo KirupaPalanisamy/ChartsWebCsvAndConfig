@@ -1,21 +1,2241 @@
-financials.Country,financials.Discount Band,Sum(financials. Sales),Sum(financials.Profit)
-Canada,High,8657237.659999998,911261.1599999999
-Canada,Low,6537899.370000001,1140580.3699999999
-Canada,Medium,7865428.355,1093780.855
-Canada,None,1827089.5,383606.5
-France,High,5865834.735,535982.735
-France,Low,5913163.185,1061776.1849999998
-France,Medium,10057889.36,1619256.8599999999
-France,None,2517285,564005
-Germany,High,4878794.360000001,424957.35999999987
-Germany,Low,10316608.08,1847355.0800000003
-Germany,Medium,5824029.879999998,823095.88
-Germany,None,2485908.5,584980.5
-Mexico,High,6829693.690000001,650338.6900000002
-Mexico,Low,5588703.93,992141.93
-Mexico,Medium,7864732.489999999,1131060.4899999995
-Mexico,None,666222,133982
-United States of America,High,11140926.280000001,866326.7800000001
-United States of America,Low,6273404.135000001,1147004.1349999998
-United States of America,Medium,7168350.749999999,912328.75
-United States of America,None,447149,69881
+financials.Country,financials.COGS,financials.Discount Band,Sum(financials. Sales),Sum(financials.Profit)
+Canada,1285,High,,
+Canada,1285,Low,,
+Canada,1285,Medium,1655.08,370.0799999999999
+Canada,1285,None,,
+Canada,1794,High,,
+Canada,1794,Low,,
+Canada,1794,Medium,6601.92,4807.92
+Canada,1794,None,,
+Canada,1940,High,2335.76,395.7600000000002
+Canada,1940,Low,,
+Canada,1940,Medium,,
+Canada,1940,None,,
+Canada,2180,High,,
+Canada,2180,Low,3139.2,959.1999999999998
+Canada,2180,Medium,,
+Canada,2180,None,,
+Canada,2440,High,,
+Canada,2440,Low,,
+Canada,2440,Medium,3142.7200000000003,702.7200000000003
+Canada,2440,None,,
+Canada,2724,High,,
+Canada,2724,Low,10569.12,7845.120000000001
+Canada,2724,Medium,,
+Canada,2724,None,,
+Canada,2920,High,,
+Canada,2920,Low,,
+Canada,2920,Medium,,
+Canada,2920,None,5840,2920
+Canada,3615,High,4301.85,686.8500000000001
+Canada,3615,Low,,
+Canada,3615,Medium,,
+Canada,3615,None,,
+Canada,3840,High,5126.4,1286.3999999999999
+Canada,3840,Low,,
+Canada,3840,Medium,,
+Canada,3840,None,,
+Canada,3885,High,,
+Canada,3885,Low,30458.4,22688.4
+Canada,3885,Medium,,
+Canada,3885,None,,
+Canada,4095,High,,
+Canada,4095,Low,,
+Canada,4095,Medium,5217.03,1122.03
+Canada,4095,None,,
+Canada,4335,High,,
+Canada,4335,Low,17166.6,12831.599999999999
+Canada,4335,Medium,,
+Canada,4335,None,,
+Canada,5652,High,,
+Canada,5652,Low,,
+Canada,5652,Medium,21025.44,15373.439999999999
+Canada,5652,None,,
+Canada,5675,High,,
+Canada,5675,Low,,
+Canada,5675,Medium,14777.7,3427.7000000000007
+Canada,5675,None,,
+Canada,5811,High,20687.16,14876.16
+Canada,5811,Low,,
+Canada,5811,Medium,,
+Canada,5811,None,,
+Canada,6327,High,22271.04,15944.04
+Canada,6327,Low,,
+Canada,6327,Medium,,
+Canada,6327,None,,
+Canada,6630,High,,
+Canada,6630,Low,9189.18,2559.1800000000003
+Canada,6630,Medium,,
+Canada,6630,None,,
+Canada,6666,High,22931.04,16265.04
+Canada,6666,Low,,
+Canada,6666,Medium,,
+Canada,6666,None,,
+Canada,6897,High,,
+Canada,6897,Low,,
+Canada,6897,Medium,51865.44,38071.44
+Canada,6897,None,,
+Canada,6963,High,,
+Canada,6963,Low,,
+Canada,6963,Medium,25345.32,18382.32
+Canada,6963,None,,
+Canada,7080,High,,
+Canada,7080,Low,,
+Canada,7080,Medium,26054.4,11894.400000000001
+Canada,7080,None,,
+Canada,7293,High,,
+Canada,7293,Low,,
+Canada,7293,Medium,55426.8,40840.8
+Canada,7293,None,,
+Canada,7554,High,,
+Canada,7554,Low,,
+Canada,7554,Medium,,
+Canada,7554,None,60432,45324
+Canada,7910,High,,
+Canada,7910,Low,,
+Canada,7910,Medium,20597.64,4777.639999999999
+Canada,7910,None,,
+Canada,8055,High,,
+Canada,8055,Low,,
+Canada,8055,Medium,10262.07,2207.0699999999997
+Canada,8055,None,,
+Canada,8283,High,29156.16,20873.16
+Canada,8283,Low,,
+Canada,8283,Medium,,
+Canada,8283,None,,
+Canada,8310,High,,
+Canada,8310,Low,16121.4,7811.4
+Canada,8310,Medium,,
+Canada,8310,None,,
+Canada,8655,High,14713.5,6058.5
+Canada,8655,Low,,
+Canada,8655,Medium,,
+Canada,8655,None,,
+Canada,9040,High,11263.84,2223.84
+Canada,9040,Low,,
+Canada,9040,Medium,,
+Canada,9040,None,,
+Canada,9150,High,,
+Canada,9150,Low,12681.9,3531.8999999999996
+Canada,9150,Medium,,
+Canada,9150,None,,
+Canada,9733.5,High,,
+Canada,9733.5,Low,,
+Canada,9733.5,Medium,36208.62,26475.120000000003
+Canada,9733.5,None,,
+Canada,10460,High,,
+Canada,10460,Low,14497.56,4037.5599999999995
+Canada,10460,Medium,,
+Canada,10460,None,,
+Canada,10561.5,High,38021.399999999994,27459.899999999998
+Canada,10561.5,Low,,
+Canada,10561.5,Medium,,
+Canada,10561.5,None,,
+Canada,11180,High,,
+Canada,11180,Low,,
+Canada,11180,Medium,20794.8,9614.8
+Canada,11180,None,,
+Canada,11745,High,,
+Canada,11745,Low,,
+Canada,11745,Medium,15620.85,3875.8500000000004
+Canada,11745,None,,
+Canada,12078,High,42997.68,30919.68
+Canada,12078,Low,,
+Canada,12078,Medium,,
+Canada,12078,None,,
+Canada,12490,High,43465.2,18485.199999999997
+Canada,12490,Low,,
+Canada,12490,Medium,,
+Canada,12490,None,,
+Canada,12620,High,,
+Canada,12620,Low,,
+Canada,12620,Medium,17604.9,4984.9000000000015
+Canada,12620,None,,
+Canada,13670,High,33682.88,6342.879999999997
+Canada,13670,Low,,
+Canada,13670,Medium,,
+Canada,13670,None,,
+Canada,13890,High,,
+Canada,13890,Low,,
+Canada,13890,Medium,52782,25002
+Canada,13890,None,,
+Canada,14255,High,,
+Canada,14255,Low,38317.44,9807.440000000002
+Canada,14255,Medium,,
+Canada,14255,None,,
+Canada,15600,High,20826,5226
+Canada,15600,Low,,
+Canada,15600,Medium,,
+Canada,15600,None,,
+Canada,15650,High,40846.5,9546.5
+Canada,15650,Low,,
+Canada,15650,Medium,,
+Canada,15650,None,,
+Canada,16140,High,20578.5,4438.5
+Canada,16140,Low,,
+Canada,16140,Medium,,
+Canada,16140,None,,
+Canada,16185,High,,
+Canada,16185,Low,,
+Canada,16185,Medium,,
+Canada,16185,None,32370,16185
+Canada,16305,High,,
+Canada,16305,Low,,
+Canada,16305,Medium,22256.324999999997,5951.324999999999
+Canada,16305,None,,
+Canada,17430,High,44969.4,10109.400000000001
+Canada,17430,Low,,
+Canada,17430,Medium,,
+Canada,17430,None,,
+Canada,18020,High,,
+Canada,18020,Low,,
+Canada,18020,Medium,34238,16218
+Canada,18020,None,,
+Canada,18170,High,,
+Canada,18170,Low,,
+Canada,18170,Medium,,
+Canada,18170,None,72680,36340
+Canada,19670,High,,
+Canada,19670,Low,28324.8,8654.8
+Canada,19670,Medium,,
+Canada,19670,None,,
+Canada,20740,High,,
+Canada,20740,Low,39820.8,19080.800000000003
+Canada,20740,Medium,,
+Canada,20740,None,,
+Canada,21255,High,,
+Canada,21255,Low,28566.72,7311.719999999999
+Canada,21255,Medium,,
+Canada,21255,None,,
+Canada,21520,High,,
+Canada,21520,Low,,
+Canada,21520,Medium,,
+Canada,21520,None,32280,10760
+Canada,23000,High,59340,13340
+Canada,23000,Low,,
+Canada,23000,Medium,,
+Canada,23000,None,,
+Canada,23630,High,,
+Canada,23630,Low,34736.1,11106.099999999999
+Canada,23630,Medium,,
+Canada,23630,None,,
+Canada,23940,High,42613.2,18673.199999999997
+Canada,23940,Low,,
+Canada,23940,Medium,,
+Canada,23940,None,,
+Canada,24280,High,41761.6,17481.6
+Canada,24280,Low,,
+Canada,24280,Medium,,
+Canada,24280,None,,
+Canada,24700,High,31863,7163
+Canada,24700,Low,,
+Canada,24700,Medium,,
+Canada,24700,None,,
+Canada,25590,High,32627.25,7037.25
+Canada,25590,Low,,
+Canada,25590,Medium,,
+Canada,25590,None,,
+Canada,26460,High,,
+Canada,26460,Low,50803.2,24343.199999999997
+Canada,26460,Medium,,
+Canada,26460,None,,
+Canada,26890,High,35494.8,8604.800000000003
+Canada,26890,Low,,
+Canada,26890,Medium,,
+Canada,26890,None,,
+Canada,28440,High,,
+Canada,28440,Low,,
+Canada,28440,Medium,80200.8,23320.800000000003
+Canada,28440,None,,
+Canada,29350,High,52243,22893
+Canada,29350,Low,,
+Canada,29350,Medium,,
+Canada,29350,None,,
+Canada,38505,High,,
+Canada,38505,Low,74699.70000000001,36194.700000000004
+Canada,38505,Medium,,
+Canada,38505,None,,
+Canada,41400,High,,
+Canada,41400,Low,,
+Canada,41400,Medium,,
+Canada,41400,None,86250,3450
+Canada,52000,High,60200,8200
+Canada,52000,Low,,
+Canada,52000,Medium,,
+Canada,52000,None,,
+Canada,67250,High,138804,4304
+Canada,67250,Low,,
+Canada,67250,Medium,,
+Canada,67250,None,,
+Canada,68040,High,,
+Canada,68040,Low,,
+Canada,68040,Medium,64496.25,-3543.75
+Canada,68040,None,,
+Canada,89100,High,,
+Canada,89100,Low,90956.25,1856.25
+Canada,89100,Medium,,
+Canada,89100,None,,
+Canada,110760,High,,
+Canada,110760,Low,114221.25,3461.25
+Canada,110760,Medium,,
+Canada,110760,None,,
+Canada,114240,High,,
+Canada,114240,Low,,
+Canada,114240,Medium,111860,-2380
+Canada,114240,None,,
+Canada,143520,High,,
+Canada,143520,Low,,
+Canada,143520,Medium,183540,40020
+Canada,143520,None,,
+Canada,161980,High,191884,29904
+Canada,161980,Low,,
+Canada,161980,Medium,,
+Canada,161980,None,,
+Canada,182000,High,210700,28700
+Canada,182000,Low,,
+Canada,182000,Medium,,
+Canada,182000,None,,
+Canada,183820,High,222705,38885
+Canada,183820,Low,,
+Canada,183820,Medium,,
+Canada,183820,None,,
+Canada,189960,High,344302.5,-35617.5
+Canada,189960,Low,,
+Canada,189960,Medium,,
+Canada,189960,None,,
+Canada,197400,High,,
+Canada,197400,Low,,
+Canada,197400,Medium,191231.25,-6168.75
+Canada,197400,None,,
+Canada,199080,High,180416.25,-18663.75
+Canada,199080,Low,,
+Canada,199080,Medium,,
+Canada,199080,None,,
+Canada,212880,High,,
+Canada,212880,Low,215097.5,2217.5
+Canada,212880,Medium,,
+Canada,212880,None,,
+Canada,218250,High,233091,14841
+Canada,218250,Low,,
+Canada,218250,Medium,,
+Canada,218250,None,,
+Canada,222000,High,229104,7104
+Canada,222000,Low,,
+Canada,222000,Medium,,
+Canada,222000,None,,
+Canada,229920,High,215550,-14370
+Canada,229920,Low,,
+Canada,229920,Medium,,
+Canada,229920,None,,
+Canada,239980,High,281053.5,41073.5
+Canada,239980,Low,,
+Canada,239980,Medium,,
+Canada,239980,None,,
+Canada,241080,High,,
+Canada,241080,Low,487182.5,5022.5
+Canada,241080,Medium,,
+Canada,241080,None,,
+Canada,245310,High,,
+Canada,245310,Low,326922.75,81612.75
+Canada,245310,Medium,,
+Canada,245310,None,,
+Canada,273500,High,,
+Canada,273500,Low,,
+Canada,273500,Medium,597324,50324
+Canada,273500,None,,
+Canada,289920,High,265760,-24160
+Canada,289920,Low,,
+Canada,289920,Medium,,
+Canada,289920,None,,
+Canada,303480,High,284512.5,-18967.5
+Canada,303480,Low,,
+Canada,303480,Medium,,
+Canada,303480,None,,
+Canada,319280,High,,
+Canada,319280,Low,,
+Canada,319280,Medium,816620,178060
+Canada,319280,None,,
+Canada,319860,High,,
+Canada,319860,Low,,
+Canada,319860,Medium,,
+Canada,319860,None,333187.5,13327.5
+Canada,320750,High,,
+Canada,320750,Low,,
+Canada,320750,Medium,354108,33358
+Canada,320750,None,,
+Canada,327480,High,,
+Canada,327480,Low,668605,13645
+Canada,327480,Medium,,
+Canada,327480,None,,
+Canada,329940,High,,
+Canada,329940,Low,,
+Canada,329940,Medium,808353,148473
+Canada,329940,None,,
+Canada,341500,High,364722,23222
+Canada,341500,Low,,
+Canada,341500,Medium,,
+Canada,341500,None,,
+Canada,351000,High,,
+Canada,351000,Low,,
+Canada,351000,Medium,391716,40716
+Canada,351000,None,,
+Canada,354480,High,313862.5,-40617.5
+Canada,354480,Low,,
+Canada,354480,Medium,,
+Canada,354480,None,,
+Canada,374000,High,771936,23936
+Canada,374000,Low,,
+Canada,374000,Medium,,
+Canada,374000,None,,
+Canada,425500,High,,
+Canada,425500,Low,,
+Canada,425500,Medium,474858,49358
+Canada,425500,None,,
+Canada,448500,High,,
+Canada,448500,Low,,
+Canada,448500,Medium,,
+Canada,448500,None,603750,155250
+Canada,462280,High,,
+Canada,462280,Low,597408,135128
+Canada,462280,Medium,,
+Canada,462280,None,,
+Canada,468500,High,,
+Canada,468500,Low,545334,76834
+Canada,468500,Medium,,
+Canada,468500,None,,
+Canada,479000,High,,
+Canada,479000,Low,1126608,168608
+Canada,479000,Medium,,
+Canada,479000,None,,
+Canada,500250,High,,
+Canada,500250,Low,,
+Canada,500250,Medium,,
+Canada,500250,None,600300,100050
+Canada,533500,High,,
+Canada,533500,Low,,
+Canada,533500,Medium,588984,55484
+Canada,533500,None,,
+Canada,547170,High,655551.75,108381.75
+Canada,547170,Low,,
+Canada,547170,Medium,,
+Canada,547170,None,,
+Canada,579150,High,670477.5,91327.5
+Canada,579150,Low,,
+Canada,579150,Medium,,
+Canada,579150,None,,
+Canada,582400,High,705600,123200
+Canada,582400,Low,,
+Canada,582400,Medium,,
+Canada,582400,None,,
+Canada,609000,High,,
+Canada,609000,Low,,
+Canada,609000,Medium,686952,77952
+Canada,609000,None,,
+Canada,684320,High,1602888,234248
+Canada,684320,Low,,
+Canada,684320,Medium,,
+Canada,684320,None,,
+Canada,741520,High,,
+Canada,741520,Low,1956472,473432
+Canada,741520,Medium,,
+Canada,741520,None,,
+Canada,948375,High,,
+Canada,948375,Low,,
+Canada,948375,Medium,1035625.5,87250.5
+Canada,948375,None,,
+Canada,950625,High,,
+Canada,950625,Low,,
+Canada,950625,Medium,1038082.5,87457.5
+Canada,950625,None,,
+France,918,High,,
+France,918,Low,,
+France,918,Medium,3341.52,2423.52
+France,918,None,,
+France,1465,High,1763.8600000000001,298.8600000000001
+France,1465,Low,,
+France,1465,Medium,,
+France,1465,None,,
+France,2598,High,,
+France,2598,Low,9976.32,7378.32
+France,2598,Medium,,
+France,2598,None,,
+France,2720,High,,
+France,2720,Low,3693.76,973.7600000000002
+France,2720,Medium,,
+France,2720,None,,
+France,2930,High,9962,4102
+France,2930,Low,,
+France,2930,Medium,,
+France,2930,None,,
+France,3165,High,,
+France,3165,Low,24813.6,18483.6
+France,3165,Medium,,
+France,3165,None,,
+France,3195,High,,
+France,3195,Low,4428.27,1233.2700000000004
+France,3195,Medium,,
+France,3195,None,,
+France,3210,High,,
+France,3210,Low,4766.85,1556.8500000000004
+France,3210,Medium,,
+France,3210,None,,
+France,3594,High,25589.28,18401.28
+France,3594,Low,,
+France,3594,Medium,,
+France,3594,None,,
+France,4179,High,28751.52,20393.52
+France,4179,Low,,
+France,4179,Medium,,
+France,4179,None,,
+France,4900,High,,
+France,4900,Low,,
+France,4900,Medium,6762,1862
+France,4900,None,,
+France,5150,High,,
+France,5150,Low,7137.9,1987.8999999999996
+France,5150,Medium,,
+France,5150,None,,
+France,5155,High,,
+France,5155,Low,,
+France,5155,Medium,6711.81,1556.8100000000004
+France,5155,None,,
+France,5202,High,18519.12,13317.119999999999
+France,5202,Low,,
+France,5202,Medium,,
+France,5202,None,,
+France,5215.5,High,,
+France,5215.5,Low,,
+France,5215.5,Medium,19401.66,14186.16
+France,5215.5,None,,
+France,5355,High,,
+France,5355,Low,20991.6,15636.599999999999
+France,5355,Medium,,
+France,5355,None,,
+France,5490,High,,
+France,5490,Low,,
+France,5490,Medium,,
+France,5490,None,8235,2745
+France,5595,High,,
+France,5595,Low,,
+France,5595,Medium,21261,15666
+France,5595,None,,
+France,5703,High,,
+France,5703,Low,44255.28,32849.28
+France,5703,Medium,,
+France,5703,None,,
+France,5901,High,,
+France,5901,Low,,
+France,5901,Medium,21479.64,15578.64
+France,5901,None,,
+France,5950,High,14494.2,2594.2000000000007
+France,5950,Low,,
+France,5950,Medium,,
+France,5950,None,,
+France,6702,High,,
+France,6702,Low,,
+France,6702,Medium,24395.28,17693.28
+France,6702,None,,
+France,7015,High,,
+France,7015,Low,,
+France,7015,Medium,18463.48,4433.48
+France,7015,None,,
+France,7026,High,,
+France,7026,Low,,
+France,7026,Medium,26136.72,19110.72
+France,7026,None,,
+France,7276.5,High,25904.340000000004,18627.840000000004
+France,7276.5,Low,,
+France,7276.5,Medium,,
+France,7276.5,None,,
+France,7425,High,25542,18117
+France,7425,Low,,
+France,7425,Medium,,
+France,7425,None,,
+France,7455,High,9184.56,1729.5599999999995
+France,7455,Low,,
+France,7455,Medium,,
+France,7455,None,,
+France,8013,High,,
+France,8013,Low,31731.48,23718.48
+France,8013,Medium,,
+France,8013,None,,
+France,8655,High,20841.239999999998,3531.239999999998
+France,8655,Low,,
+France,8655,Medium,,
+France,8655,None,,
+France,9410,High,,
+France,9410,Low,18443.6,9033.599999999999
+France,9410,Medium,,
+France,9410,None,,
+France,10330,High,,
+France,10330,Low,,
+France,10330,Medium,19627,9297
+France,10330,None,,
+France,10680,High,,
+France,10680,Low,,
+France,10680,Medium,14204.4,3524.3999999999996
+France,10680,None,,
+France,10725,High,,
+France,10725,Low,14714.7,3989.7000000000007
+France,10725,Medium,,
+France,10725,None,,
+France,12270,High,,
+France,12270,Low,,
+France,12270,Medium,33497.1,8957.099999999999
+France,12270,None,,
+France,12435,High,,
+France,12435,Low,,
+France,12435,Medium,33077.1,8207.099999999999
+France,12435,None,,
+France,12660,High,15774.36,3114.3599999999997
+France,12660,Low,,
+France,12660,Medium,,
+France,12660,None,,
+France,13030,High,,
+France,13030,Low,,
+France,13030,Medium,24757,11727
+France,13030,None,,
+France,13480,High,16418.64,2938.6399999999994
+France,13480,Low,,
+France,13480,Medium,,
+France,13480,None,,
+France,13755,High,,
+France,13755,Low,27234.899999999998,13479.899999999998
+France,13755,Medium,,
+France,13755,None,,
+France,15350,High,,
+France,15350,Low,,
+France,15350,Medium,28551,13201
+France,15350,None,,
+France,15630,High,,
+France,15630,Low,,
+France,15630,Medium,29697,14067
+France,15630,None,,
+France,15790,High,,
+France,15790,Low,,
+France,15790,Medium,30001,14211
+France,15790,None,,
+France,17107.5,High,21076.44,3968.9399999999987
+France,17107.5,Low,,
+France,17107.5,Medium,,
+France,17107.5,None,,
+France,17570,High,,
+France,17570,Low,,
+France,17570,Medium,66063.2,30923.199999999997
+France,17570,None,,
+France,18990,High,,
+France,18990,Low,,
+France,18990,Medium,,
+France,18990,None,75960,37980
+France,19540,High,35172,15632
+France,19540,Low,,
+France,19540,Medium,,
+France,19540,None,,
+France,19725,High,,
+France,19725,Low,27338.850000000002,7613.850000000002
+France,19725,Medium,,
+France,19725,None,,
+France,19760,High,,
+France,19760,Low,,
+France,19760,Medium,73507.2,33987.2
+France,19760,None,,
+France,20720,High,55944,14504
+France,20720,Low,,
+France,20720,Medium,,
+France,20720,None,,
+France,21010,High,,
+France,21010,Low,,
+France,21010,Medium,29308.95,8298.95
+France,21010,None,,
+France,21670,High,58509,15169
+France,21670,Low,,
+France,21670,Medium,,
+France,21670,None,,
+France,21780,High,,
+France,21780,Low,,
+France,21780,Medium,,
+France,21780,None,65340,21780
+France,22610,High,,
+France,22610,Low,32558.4,9948.400000000001
+France,22610,Medium,,
+France,22610,None,,
+France,22960,High,,
+France,22960,Low,34095.6,11135.599999999999
+France,22960,Medium,,
+France,22960,None,,
+France,25010,High,,
+France,25010,Low,,
+France,25010,Medium,34513.8,9503.800000000003
+France,25010,None,,
+France,25215,High,44378.399999999994,19163.399999999998
+France,25215,Low,,
+France,25215,Medium,,
+France,25215,None,,
+France,26200,High,,
+France,26200,Low,,
+France,26200,Medium,37335,11135
+France,26200,None,,
+France,26820,High,,
+France,26820,Low,,
+France,26820,Medium,48812.4,21992.4
+France,26820,None,,
+France,28050,High,49929,21879
+France,28050,Low,,
+France,28050,Medium,,
+France,28050,None,,
+France,28260,High,36031.5,7771.5
+France,28260,Low,,
+France,28260,Medium,,
+France,28260,None,,
+France,38010,High,,
+France,38010,Low,,
+France,38010,Medium,53594.100000000006,15584.100000000002
+France,38010,None,,
+France,38640,High,,
+France,38640,Low,76507.20000000001,37867.200000000004
+France,38640,Medium,,
+France,38640,None,,
+France,38745,High,51143.399999999994,12398.399999999998
+France,38745,Low,,
+France,38745,Medium,,
+France,38745,None,,
+France,39975,High,52167.375,12192.375
+France,39975,Low,,
+France,39975,Medium,,
+France,39975,None,,
+France,79560,High,70443.75,-9116.25
+France,79560,Low,,
+France,79560,Medium,,
+France,79560,None,,
+France,80500,High,,
+France,80500,Low,,
+France,80500,Medium,87906,7406
+France,80500,None,,
+France,84480,High,,
+France,84480,Low,,
+France,84480,Medium,167200,-1760
+France,84480,None,,
+France,94440,High,,
+France,94440,Low,194782.5,5902.5
+France,94440,Medium,,
+France,94440,None,,
+France,96500,High,,
+France,96500,Low,,
+France,96500,Medium,106536,10036
+France,96500,None,,
+France,99060,High,,
+France,99060,Low,,
+France,99060,Medium,122682,23622
+France,99060,None,,
+France,112000,High,,
+France,112000,Low,,
+France,112000,Medium,249984,25984
+France,112000,None,,
+France,122760,High,109972.5,-12787.5
+France,122760,Low,,
+France,122760,Medium,,
+France,122760,None,,
+France,140880,High,124737.5,-16142.5
+France,140880,Low,,
+France,140880,Medium,,
+France,140880,None,,
+France,149370,High,,
+France,149370,Low,,
+France,149370,Medium,184989,35619
+France,149370,None,,
+France,154440,High,,
+France,154440,Low,312097.5,3217.5
+France,154440,Medium,,
+France,154440,None,,
+France,166140,High,201285,35145
+France,166140,Low,,
+France,166140,Medium,,
+France,166140,None,,
+France,171960,High,159421.25,-12538.75
+France,171960,Low,,
+France,171960,Medium,,
+France,171960,None,,
+France,177840,High,166725,-11115
+France,177840,Low,,
+France,177840,Medium,,
+France,177840,None,,
+France,209280,High,,
+France,209280,Low,215820,6540
+France,209280,Medium,,
+France,209280,None,,
+France,213250,High,460620,34120
+France,213250,Low,,
+France,213250,Medium,,
+France,213250,None,,
+France,216480,High,,
+France,216480,Low,,
+France,216480,Medium,,
+France,216480,None,225500,9020
+France,222840,High,,
+France,222840,Low,,
+France,222840,Medium,211233.75,-11606.25
+France,222840,None,,
+France,229500,High,,
+France,229500,Low,269892,40392
+France,229500,Medium,,
+France,229500,None,,
+France,238500,High,,
+France,238500,Low,,
+France,238500,Medium,233531.25,-4968.75
+France,238500,None,,
+France,239750,High,,
+France,239750,Low,,
+France,239750,Medium,267561,27811
+France,239750,None,,
+France,286200,High,,
+France,286200,Low,,
+France,286200,Medium,283218.75,-2981.25
+France,286200,None,,
+France,292920,High,543122.5,-42717.5
+France,292920,Low,,
+France,292920,Medium,,
+France,292920,None,,
+France,296500,High,313104,16604
+France,296500,Low,,
+France,296500,Medium,,
+France,296500,None,,
+France,305250,High,,
+France,305250,Low,,
+France,305250,Medium,688644,78144
+France,305250,None,,
+France,331000,High,,
+France,331000,Low,,
+France,331000,Medium,361452,30452
+France,331000,None,,
+France,333060,High,385581,52521
+France,333060,Low,,
+France,333060,Medium,,
+France,333060,None,,
+France,358560,High,,
+France,358560,Low,358560,0
+France,358560,Medium,,
+France,358560,None,,
+France,359970,High,,
+France,359970,Low,,
+France,359970,Medium,460346.25,100376.25
+France,359970,None,,
+France,388960,High,,
+France,388960,Low,,
+France,388960,Medium,984368,206448
+France,388960,None,,
+France,390500,High,,
+France,390500,Low,,
+France,390500,Medium,431112,40612
+France,390500,None,,
+France,397020,High,,
+France,397020,Low,,
+France,397020,Medium,,
+France,397020,None,534450,137430
+France,414440,High,490952,76512
+France,414440,Low,,
+France,414440,Medium,,
+France,414440,None,,
+France,414750,High,,
+France,414750,Low,,
+France,414750,Medium,462861,48111
+France,414750,None,,
+France,433160,High,,
+France,433160,Low,,
+France,433160,Medium,530621,97461
+France,433160,None,,
+France,443250,High,468072,24822
+France,443250,Low,,
+France,443250,Medium,,
+France,443250,None,,
+France,465400,High,545055,79655
+France,465400,Low,,
+France,465400,Medium,,
+France,465400,None,,
+France,499720,High,578522,78802
+France,499720,Low,,
+France,499720,Medium,,
+France,499720,None,,
+France,509220,High,,
+France,509220,Low,514524.375,5304.375
+France,509220,Medium,,
+France,509220,None,,
+France,537750,High,,
+France,537750,Low,,
+France,537750,Medium,,
+France,537750,None,645300,107550
+France,539760,High,,
+France,539760,Low,,
+France,539760,Medium,1366008,286488
+France,539760,None,,
+France,545250,High,,
+France,545250,Low,,
+France,545250,Medium,1216998,126498
+France,545250,None,,
+France,560300,High,,
+France,560300,Low,1493415,372815
+France,560300,Medium,,
+France,560300,None,,
+France,566020,High,,
+France,566020,Low,1462944,330904
+France,566020,Medium,,
+France,566020,None,,
+France,608625,High,,
+France,608625,Low,708439.5,99814.5
+France,608625,Medium,,
+France,608625,None,,
+France,618750,High,631125,12375
+France,618750,Low,,
+France,618750,Medium,,
+France,618750,None,,
+France,715000,High,,
+France,715000,Low,,
+France,715000,Medium,,
+France,715000,None,962500,247500
+France,747760,High,,
+France,747760,Low,,
+France,747760,Medium,936138,188378
+France,747760,None,,
+Germany,1101,High,,
+Germany,1101,Low,,
+Germany,1101,Medium,,
+Germany,1101,None,4404,3303
+Germany,1315,High,,
+Germany,1315,Low,1822.59,507.5899999999999
+Germany,1315,Medium,,
+Germany,1315,None,,
+Germany,1400,High,3371.2,571.1999999999998
+Germany,1400,Low,,
+Germany,1400,Medium,,
+Germany,1400,None,,
+Germany,1416,High,10081.92,7249.92
+Germany,1416,Low,,
+Germany,1416,Medium,,
+Germany,1416,None,,
+Germany,1800,High,,
+Germany,1800,Low,,
+Germany,1800,Medium,4586.4,986.3999999999996
+Germany,1800,None,,
+Germany,2298,High,,
+Germany,2298,Low,18200.16,13604.16
+Germany,2298,Medium,,
+Germany,2298,None,,
+Germany,2410,High,8676,3856
+Germany,2410,Low,,
+Germany,2410,Medium,,
+Germany,2410,None,,
+Germany,2640,High,,
+Germany,2640,Low,,
+Germany,2640,Medium,9609.6,6969.6
+Germany,2640,None,,
+Germany,2780,High,3586.2,806.1999999999998
+Germany,2780,Low,,
+Germany,2780,Medium,,
+Germany,2780,None,,
+Germany,3039,High,21151.44,15073.439999999999
+Germany,3039,Low,,
+Germany,3039,Medium,,
+Germany,3039,None,,
+Germany,3348,High,,
+Germany,3348,Low,,
+Germany,3348,Medium,12722.4,9374.4
+Germany,3348,None,,
+Germany,4420,High,7690.8,3270.8
+Germany,4420,Low,,
+Germany,4420,Medium,,
+Germany,4420,None,,
+Germany,4635,High,,
+Germany,4635,Low,,
+Germany,4635,Medium,,
+Germany,4635,None,37080,27810
+Germany,4740,High,,
+Germany,4740,Low,,
+Germany,4740,Medium,17253.6,12513.599999999999
+Germany,4740,None,,
+Germany,4920,High,6273,1353
+Germany,4920,Low,,
+Germany,4920,Medium,,
+Germany,4920,None,,
+Germany,5080,High,,
+Germany,5080,Low,,
+Germany,5080,Medium,6756.4,1676.3999999999996
+Germany,5080,None,,
+Germany,5100,High,6885,1785
+Germany,5100,Low,,
+Germany,5100,Medium,,
+Germany,5100,None,,
+Germany,5310,High,18478.8,13168.8
+Germany,5310,Low,,
+Germany,5310,Medium,,
+Germany,5310,None,,
+Germany,5325,High,,
+Germany,5325,Low,,
+Germany,5325,Medium,19383,14058
+Germany,5325,None,,
+Germany,5475,High,,
+Germany,5475,Low,,
+Germany,5475,Medium,7051.8,1576.8000000000002
+Germany,5475,None,,
+Germany,5795,High,,
+Germany,5795,Low,,
+Germany,5795,Medium,15414.7,3824.7000000000007
+Germany,5795,None,,
+Germany,5880,High,,
+Germany,5880,Low,,
+Germany,5880,Medium,10936.8,5056.799999999999
+Germany,5880,None,,
+Germany,6295,High,,
+Germany,6295,Low,,
+Germany,6295,Medium,8107.96,1812.96
+Germany,6295,None,,
+Germany,6450,High,,
+Germany,6450,Low,,
+Germany,6450,Medium,11868,5418
+Germany,6450,None,,
+Germany,6483,High,,
+Germany,6483,Low,,
+Germany,6483,Medium,,
+Germany,6483,None,25932,19449
+Germany,6600,High,8613,2013
+Germany,6600,Low,,
+Germany,6600,Medium,,
+Germany,6600,None,,
+Germany,6630,High,,
+Germany,6630,Low,,
+Germany,6630,Medium,12066.6,5436.6
+Germany,6630,None,,
+Germany,6645,High,,
+Germany,6645,Low,,
+Germany,6645,Medium,24719.4,18074.4
+Germany,6645,None,,
+Germany,6810,High,9193.5,2383.5
+Germany,6810,Low,,
+Germany,6810,Medium,,
+Germany,6810,None,,
+Germany,6860,High,,
+Germany,6860,Low,,
+Germany,6860,Medium,9123.8,2263.7999999999993
+Germany,6860,None,,
+Germany,7026,High,,
+Germany,7026,Low,,
+Germany,7026,Medium,26698.8,19672.8
+Germany,7026,None,,
+Germany,7110,High,,
+Germany,7110,Low,,
+Germany,7110,Medium,19623.6,5403.5999999999985
+Germany,7110,None,,
+Germany,7437,High,,
+Germany,7437,Low,28855.56,21418.56
+Germany,7437,Medium,,
+Germany,7437,None,,
+Germany,7470,High,,
+Germany,7470,Low,11092.95,3622.9500000000007
+Germany,7470,Medium,,
+Germany,7470,None,,
+Germany,7722,High,27799.2,20077.2
+Germany,7722,Low,,
+Germany,7722,Medium,,
+Germany,7722,None,,
+Germany,7990,High,,
+Germany,7990,Low,,
+Germany,7990,Medium,10291.12,2301.120000000001
+Germany,7990,None,,
+Germany,8430,High,,
+Germany,8430,Low,,
+Germany,8430,Medium,,
+Germany,8430,None,11802,3372
+Germany,8514,High,,
+Germany,8514,Low,,
+Germany,8514,Medium,,
+Germany,8514,None,34056,25542
+Germany,8880,High,,
+Germany,8880,Low,,
+Germany,8880,Medium,,
+Germany,8880,None,26640,8880
+Germany,9210,High,,
+Germany,9210,Low,,
+Germany,9210,Medium,,
+Germany,9210,None,13815,4605
+Germany,9700,High,,
+Germany,9700,Low,,
+Germany,9700,Medium,13240.5,3540.5
+Germany,9700,None,,
+Germany,9790,High,,
+Germany,9790,Low,13294.82,3504.8199999999997
+Germany,9790,Medium,,
+Germany,9790,None,,
+Germany,10010,High,,
+Germany,10010,Low,,
+Germany,10010,Medium,18818.8,8808.8
+Germany,10010,None,,
+Germany,10625,High,,
+Germany,10625,Low,,
+Germany,10625,Medium,13833.75,3208.75
+Germany,10625,None,,
+Germany,10730,High,,
+Germany,10730,Low,,
+Germany,10730,Medium,,
+Germany,10730,None,15022,4292
+Germany,11580,High,19686,8106
+Germany,11580,Low,,
+Germany,11580,Medium,,
+Germany,11580,None,,
+Germany,11690,High,,
+Germany,11690,Low,,
+Germany,11690,Medium,30113.44,6733.439999999999
+Germany,11690,None,,
+Germany,11750,High,29962.5,6462.5
+Germany,11750,Low,,
+Germany,11750,Medium,,
+Germany,11750,None,,
+Germany,12045,High,,
+Germany,12045,Low,,
+Germany,12045,Medium,15513.96,3468.959999999999
+Germany,12045,None,,
+Germany,13210,High,,
+Germany,13210,Low,,
+Germany,13210,Medium,,
+Germany,13210,None,26420,13210
+Germany,13325,High,16789.5,3464.5
+Germany,13325,Low,,
+Germany,13325,Medium,,
+Germany,13325,None,,
+Germany,13660,High,,
+Germany,13660,Low,,
+Germany,13660,Medium,50268.8,22948.800000000003
+Germany,13660,None,,
+Germany,15130,High,19517.7,4387.700000000001
+Germany,15130,Low,,
+Germany,15130,Medium,,
+Germany,15130,None,,
+Germany,15200,High,,
+Germany,15200,Low,,
+Germany,15200,Medium,27968,12768
+Germany,15200,None,,
+Germany,15300,High,,
+Germany,15300,Low,,
+Germany,15300,Medium,21573,6273
+Germany,15300,None,,
+Germany,15310,High,53891.2,23271.199999999997
+Germany,15310,Low,,
+Germany,15310,Medium,,
+Germany,15310,None,,
+Germany,17430,High,,
+Germany,17430,Low,,
+Germany,17430,Medium,24576.3,7146.299999999999
+Germany,17430,None,,
+Germany,19340,High,,
+Germany,19340,Low,,
+Germany,19340,Medium,35585.6,16245.599999999999
+Germany,19340,None,,
+Germany,19450,High,,
+Germany,19450,Low,56599.5,17699.5
+Germany,19450,Medium,,
+Germany,19450,None,,
+Germany,21160,High,,
+Germany,21160,Low,,
+Germany,21160,Medium,30153,8993
+Germany,21160,None,,
+Germany,22970,High,,
+Germany,22970,Low,,
+Germany,22970,Medium,43643,20673
+Germany,22970,None,,
+Germany,25800,High,,
+Germany,25800,Low,50052,24252
+Germany,25800,Medium,,
+Germany,25800,None,,
+Germany,27080,High,47119.2,20039.199999999997
+Germany,27080,Low,,
+Germany,27080,Medium,,
+Germany,27080,None,,
+Germany,29920,High,106515.2,46675.2
+Germany,29920,Low,,
+Germany,29920,Medium,,
+Germany,29920,None,,
+Germany,53500,High,,
+Germany,53500,Low,125832,18832
+Germany,53500,Medium,,
+Germany,53500,None,,
+Germany,64750,High,,
+Germany,64750,Low,76146,11396
+Germany,64750,Medium,,
+Germany,64750,None,,
+Germany,66240,High,58650,-7590
+Germany,66240,Low,,
+Germany,66240,Medium,,
+Germany,66240,None,,
+Germany,83500,High,,
+Germany,83500,Low,,
+Germany,83500,Medium,91182,7682
+Germany,83500,None,,
+Germany,92820,High,108706.5,15886.5
+Germany,92820,Low,,
+Germany,92820,Medium,,
+Germany,92820,None,,
+Germany,95400,High,,
+Germany,95400,Low,95400,0
+Germany,95400,Medium,,
+Germany,95400,None,,
+Germany,96840,High,,
+Germany,96840,Low,,
+Germany,96840,Medium,95831.25,-1008.75
+Germany,96840,None,,
+Germany,97080,High,,
+Germany,97080,Low,198205,4045
+Germany,97080,Medium,,
+Germany,97080,None,,
+Germany,106440,High,,
+Germany,106440,Low,,
+Germany,106440,Medium,104222.5,-2217.5
+Germany,106440,None,,
+Germany,109720,High,,
+Germany,109720,Low,,
+Germany,109720,Medium,135884,26164
+Germany,109720,None,,
+Germany,119280,High,,
+Germany,119280,Low,,
+Germany,119280,Medium,115552.5,-3727.5
+Germany,119280,None,,
+Germany,130200,High,230562.5,-29837.5
+Germany,130200,Low,,
+Germany,130200,Medium,,
+Germany,130200,None,,
+Germany,172250,High,,
+Germany,172250,Low,400998,56498
+Germany,172250,Medium,,
+Germany,172250,None,,
+Germany,188400,High,,
+Germany,188400,Low,380725,3925
+Germany,188400,Medium,,
+Germany,188400,None,,
+Germany,199160,High,238609,39449
+Germany,199160,Low,,
+Germany,199160,Medium,,
+Germany,199160,None,,
+Germany,201750,High,210627,8877
+Germany,201750,Low,,
+Germany,201750,Medium,,
+Germany,201750,None,,
+Germany,204720,High,,
+Germany,204720,Low,413705,4265
+Germany,204720,Medium,,
+Germany,204720,None,,
+Germany,205920,High,246708,40788
+Germany,205920,Low,,
+Germany,205920,Medium,,
+Germany,205920,None,,
+Germany,246500,High,,
+Germany,246500,Low,292842,46342
+Germany,246500,Medium,,
+Germany,246500,None,,
+Germany,250440,High,,
+Germany,250440,Low,,
+Germany,250440,Medium,242613.75,-7826.25
+Germany,250440,None,,
+Germany,261560,High,,
+Germany,261560,Low,,
+Germany,261560,Medium,,
+Germany,261560,None,704200,181080
+Germany,273120,High,,
+Germany,273120,Low,278810,5690
+Germany,273120,Medium,,
+Germany,273120,None,,
+Germany,280750,High,,
+Germany,280750,Low,,
+Germany,280750,Medium,313317,32567
+Germany,280750,None,,
+Germany,300000,High,,
+Germany,300000,Low,,
+Germany,300000,Medium,290625,-9375
+Germany,300000,None,,
+Germany,311740,High,360899,49159
+Germany,311740,Low,,
+Germany,311740,Medium,,
+Germany,311740,None,,
+Germany,312500,High,,
+Germany,312500,Low,,
+Germany,312500,Medium,712500,87500
+Germany,312500,None,,
+Germany,332040,High,293993.75,-38046.25
+Germany,332040,Low,,
+Germany,332040,Medium,,
+Germany,332040,None,,
+Germany,339750,High,358776,19026
+Germany,339750,Low,,
+Germany,339750,Medium,,
+Germany,339750,None,,
+Germany,339820,High,,
+Germany,339820,Low,,
+Germany,339820,Medium,416279.5,76459.5
+Germany,339820,None,,
+Germany,351000,High,,
+Germany,351000,Low,,
+Germany,351000,Medium,448875,97875
+Germany,351000,None,,
+Germany,353625,High,,
+Germany,353625,Low,407376,53751
+Germany,353625,Medium,,
+Germany,353625,None,,
+Germany,379600,High,,
+Germany,379600,Low,,
+Germany,379600,Medium,480340,100740
+Germany,379600,None,,
+Germany,379800,High,352106.25,-27693.75
+Germany,379800,Low,,
+Germany,379800,Medium,,
+Germany,379800,None,,
+Germany,393380,High,,
+Germany,393380,Low,,
+Germany,393380,Medium,,
+Germany,393380,None,1059100,272340
+Germany,421560,High,,
+Germany,421560,Low,,
+Germany,421560,Medium,408386.25,-13173.75
+Germany,421560,None,,
+Germany,432000,High,,
+Germany,432000,Low,508032,76032
+Germany,432000,Medium,,
+Germany,432000,None,,
+Germany,464750,High,,
+Germany,464750,Low,535392,70642
+Germany,464750,Medium,,
+Germany,464750,None,,
+Germany,467220,High,,
+Germany,467220,Low,610081.5,142861.5
+Germany,467220,Medium,,
+Germany,467220,None,,
+Germany,486200,High,589050,102850
+Germany,486200,Low,,
+Germany,486200,Medium,,
+Germany,486200,None,,
+Germany,495820,High,,
+Germany,495820,Low,640752,144932
+Germany,495820,Medium,,
+Germany,495820,None,,
+Germany,505250,High,,
+Germany,505250,Low,1164096,153596
+Germany,505250,Medium,,
+Germany,505250,None,,
+Germany,506340,High,,
+Germany,506340,Low,,
+Germany,506340,Medium,,
+Germany,506340,None,527437.5,21097.5
+Germany,557960,High,,
+Germany,557960,Low,,
+Germany,557960,Medium,691012,133052
+Germany,557960,None,,
+Germany,634000,High,654288,20288
+Germany,634000,Low,,
+Germany,634000,Medium,,
+Germany,634000,None,,
+Germany,664750,High,,
+Germany,664750,Low,,
+Germany,664750,Medium,725907,61157
+Germany,664750,None,,
+Germany,702750,High,750537,47787
+Germany,702750,Low,,
+Germany,702750,Medium,,
+Germany,702750,None,,
+Germany,748020,High,,
+Germany,748020,Low,1973622,477582
+Germany,748020,Medium,,
+Germany,748020,None,,
+Germany,771160,High,,
+Germany,771160,Low,2034676,492356
+Germany,771160,Medium,,
+Germany,771160,None,,
+Mexico,1101,High,,
+Mexico,1101,Low,,
+Mexico,1101,Medium,8015.28,5813.28
+Mexico,1101,None,,
+Mexico,1230,High,8560.8,6100.799999999999
+Mexico,1230,Low,,
+Mexico,1230,Medium,,
+Mexico,1230,None,,
+Mexico,1500,High,5100,3600
+Mexico,1500,Low,,
+Mexico,1500,Medium,,
+Mexico,1500,None,,
+Mexico,1686,High,,
+Mexico,1686,Low,,
+Mexico,1686,Medium,6339.36,4653.36
+Mexico,1686,None,,
+Mexico,1713,High,5961.24,4248.24
+Mexico,1713,Low,,
+Mexico,1713,Medium,,
+Mexico,1713,None,,
+Mexico,1810,High,,
+Mexico,1810,Low,2508.66,698.6599999999999
+Mexico,1810,Medium,,
+Mexico,1810,None,,
+Mexico,1812,High,12611.52,8987.52
+Mexico,1812,Low,,
+Mexico,1812,Medium,,
+Mexico,1812,None,,
+Mexico,2070,High,,
+Mexico,2070,Low,8114.4,6044.4
+Mexico,2070,Medium,,
+Mexico,2070,None,,
+Mexico,2181,High,,
+Mexico,2181,Low,,
+Mexico,2181,Medium,8113.32,5932.32
+Mexico,2181,None,,
+Mexico,2450,High,,
+Mexico,2450,Low,,
+Mexico,2450,Medium,3344.25,894.25
+Mexico,2450,None,,
+Mexico,2600,High,4472,1872
+Mexico,2600,Low,,
+Mexico,2600,Medium,,
+Mexico,2600,None,,
+Mexico,2605,High,,
+Mexico,2605,Low,,
+Mexico,2605,Medium,6637.54,1427.54
+Mexico,2605,None,,
+Mexico,3015,High,10733.4,7718.4
+Mexico,3015,Low,,
+Mexico,3015,Medium,,
+Mexico,3015,None,,
+Mexico,3252,High,,
+Mexico,3252,Low,25495.68,18991.68
+Mexico,3252,Medium,,
+Mexico,3252,None,,
+Mexico,3369,High,,
+Mexico,3369,Low,,
+Mexico,3369,Medium,12802.2,9433.2
+Mexico,3369,None,,
+Mexico,3800,High,5016,1216
+Mexico,3800,Low,,
+Mexico,3800,Medium,,
+Mexico,3800,None,,
+Mexico,4125,High,,
+Mexico,4125,Low,,
+Mexico,4125,Medium,15180,11055
+Mexico,4125,None,,
+Mexico,4415,High,,
+Mexico,4415,Low,,
+Mexico,4415,Medium,,
+Mexico,4415,None,6181,1766
+Mexico,5440,High,,
+Mexico,5440,Low,10662.4,5222.4
+Mexico,5440,Medium,,
+Mexico,5440,None,,
+Mexico,5748,High,,
+Mexico,5748,Low,22302.24,16554.24
+Mexico,5748,Medium,,
+Mexico,5748,None,,
+Mexico,6090,High,,
+Mexico,6090,Low,,
+Mexico,6090,Medium,11327.4,5237.4
+Mexico,6090,None,,
+Mexico,6410,High,8653.5,2243.5
+Mexico,6410,Low,,
+Mexico,6410,Medium,,
+Mexico,6410,None,,
+Mexico,6550,High,8744.25,2194.25
+Mexico,6550,Low,,
+Mexico,6550,Medium,,
+Mexico,6550,None,,
+Mexico,6665,High,,
+Mexico,6665,Low,,
+Mexico,6665,Medium,8771.14,2106.1399999999994
+Mexico,6665,None,,
+Mexico,6840,High,8139.6,1299.6000000000004
+Mexico,6840,Low,,
+Mexico,6840,Medium,,
+Mexico,6840,None,,
+Mexico,7020,High,,
+Mexico,7020,Low,,
+Mexico,7020,Medium,26114.4,19094.4
+Mexico,7020,None,,
+Mexico,7465,High,,
+Mexico,7465,Low,,
+Mexico,7465,Medium,,
+Mexico,7465,None,10451,2986
+Mexico,7490,High,,
+Mexico,7490,Low,,
+Mexico,7490,Medium,19713.68,4733.68
+Mexico,7490,None,,
+Mexico,7983,High,28100.16,20117.16
+Mexico,7983,Low,,
+Mexico,7983,Medium,,
+Mexico,7983,None,,
+Mexico,8289,High,,
+Mexico,8289,Low,,
+Mexico,8289,Medium,30835.08,22546.08
+Mexico,8289,None,,
+Mexico,8415,High,,
+Mexico,8415,Low,,
+Mexico,8415,Medium,11191.95,2776.9500000000007
+Mexico,8415,None,,
+Mexico,8635,High,20793.08,3523.0800000000017
+Mexico,8635,Low,,
+Mexico,8635,Medium,,
+Mexico,8635,None,,
+Mexico,8800,High,,
+Mexico,8800,Low,11950.4,3150.3999999999996
+Mexico,8800,Medium,,
+Mexico,8800,None,,
+Mexico,9050,High,31856,13756
+Mexico,9050,Low,,
+Mexico,9050,Medium,,
+Mexico,9050,None,,
+Mexico,9730,High,,
+Mexico,9730,Low,,
+Mexico,9730,Medium,12532.24,2802.24
+Mexico,9730,None,,
+Mexico,9740,High,,
+Mexico,9740,Low,,
+Mexico,9740,Medium,,
+Mexico,9740,None,14610,4870
+Mexico,10380,High,,
+Mexico,10380,Low,,
+Mexico,10380,Medium,37783.2,17023.199999999997
+Mexico,10380,None,,
+Mexico,11220,High,19971.6,8751.599999999999
+Mexico,11220,Low,,
+Mexico,11220,Medium,,
+Mexico,11220,None,,
+Mexico,11230,High,,
+Mexico,11230,Low,,
+Mexico,11230,Medium,21112.4,9882.400000000001
+Mexico,11230,None,,
+Mexico,12100,High,14907.2,2807.2000000000007
+Mexico,12100,Low,,
+Mexico,12100,Medium,,
+Mexico,12100,None,,
+Mexico,12330,High,43401.6,18741.6
+Mexico,12330,Low,,
+Mexico,12330,Medium,,
+Mexico,12330,None,,
+Mexico,12675,High,15083.25,2408.25
+Mexico,12675,Low,,
+Mexico,12675,Medium,,
+Mexico,12675,None,,
+Mexico,13445,High,,
+Mexico,13445,Low,,
+Mexico,13445,Medium,35763.7,8873.699999999997
+Mexico,13445,None,,
+Mexico,13530,High,16858.38,3328.380000000001
+Mexico,13530,Low,,
+Mexico,13530,Medium,,
+Mexico,13530,None,,
+Mexico,14515,High,17476.06,2961.0600000000013
+Mexico,14515,Low,,
+Mexico,14515,Medium,,
+Mexico,14515,None,,
+Mexico,15140,High,,
+Mexico,15140,Low,43603.2,13323.199999999997
+Mexico,15140,Medium,,
+Mexico,15140,None,,
+Mexico,16940,High,,
+Mexico,16940,Low,,
+Mexico,16940,Medium,30830.8,13890.8
+Mexico,16940,None,,
+Mexico,17150,High,60368,26068
+Mexico,17150,Low,,
+Mexico,17150,Medium,,
+Mexico,17150,None,,
+Mexico,18340,High,,
+Mexico,18340,Low,,
+Mexico,18340,Medium,34112.4,15772.400000000001
+Mexico,18340,None,,
+Mexico,18700,High,24123,5423
+Mexico,18700,Low,,
+Mexico,18700,Medium,,
+Mexico,18700,None,,
+Mexico,19840,High,26486.4,6646.4000000000015
+Mexico,19840,Low,,
+Mexico,19840,Medium,,
+Mexico,19840,None,,
+Mexico,20310,High,,
+Mexico,20310,Low,58492.8,17872.800000000003
+Mexico,20310,Medium,,
+Mexico,20310,None,,
+Mexico,20390,High,36702,16312
+Mexico,20390,Low,,
+Mexico,20390,Medium,,
+Mexico,20390,None,,
+Mexico,21570,High,57591.9,14451.900000000001
+Mexico,21570,Low,,
+Mexico,21570,Medium,,
+Mexico,21570,None,,
+Mexico,22140,High,,
+Mexico,22140,Low,32877.9,10737.900000000001
+Mexico,22140,Medium,,
+Mexico,22140,None,,
+Mexico,22550,High,39237,16687
+Mexico,22550,Low,,
+Mexico,22550,Medium,,
+Mexico,22550,None,,
+Mexico,24700,High,,
+Mexico,24700,Low,,
+Mexico,24700,Medium,,
+Mexico,24700,None,74100,24700
+Mexico,24720,High,,
+Mexico,24720,Low,,
+Mexico,24720,Medium,,
+Mexico,24720,None,37080,12360
+Mexico,25790,High,44358.8,18568.800000000003
+Mexico,25790,Low,,
+Mexico,25790,Medium,,
+Mexico,25790,None,,
+Mexico,26280,High,,
+Mexico,26280,Low,,
+Mexico,26280,Medium,35872.2,9592.199999999997
+Mexico,26280,None,,
+Mexico,26290,High,46796.2,20506.199999999997
+Mexico,26290,Low,,
+Mexico,26290,Medium,,
+Mexico,26290,None,,
+Mexico,27910,High,,
+Mexico,27910,Low,,
+Mexico,27910,Medium,39771.75,11861.75
+Mexico,27910,None,,
+Mexico,28610,High,,
+Mexico,28610,Low,,
+Mexico,28610,Medium,40769.25,12159.25
+Mexico,28610,None,,
+Mexico,29930,High,,
+Mexico,29930,Low,,
+Mexico,29930,Medium,55071.2,25141.199999999997
+Mexico,29930,None,,
+Mexico,40920,High,38362.5,-2557.5
+Mexico,40920,Low,,
+Mexico,40920,Medium,,
+Mexico,40920,None,,
+Mexico,66480,High,61632.5,-4847.5
+Mexico,66480,Low,,
+Mexico,66480,Medium,,
+Mexico,66480,None,,
+Mexico,79440,High,,
+Mexico,79440,Low,162190,3310
+Mexico,79440,Medium,,
+Mexico,79440,None,,
+Mexico,89440,High,214312,35432
+Mexico,89440,Low,,
+Mexico,89440,Medium,,
+Mexico,89440,None,,
+Mexico,105240,High,,
+Mexico,105240,Low,,
+Mexico,105240,Medium,99758.75,-5481.25
+Mexico,105240,None,,
+Mexico,108000,High,116640,8640
+Mexico,108000,Low,,
+Mexico,108000,Medium,,
+Mexico,108000,None,,
+Mexico,113640,High,105353.75,-8286.25
+Mexico,113640,Low,,
+Mexico,113640,Medium,,
+Mexico,113640,None,,
+Mexico,123500,High,,
+Mexico,123500,Low,293436,46436
+Mexico,123500,Medium,,
+Mexico,123500,None,,
+Mexico,128880,High,,
+Mexico,128880,Low,128880,0
+Mexico,128880,Medium,,
+Mexico,128880,None,,
+Mexico,133680,High,,
+Mexico,133680,Low,,
+Mexico,133680,Medium,128110,-5570
+Mexico,133680,None,,
+Mexico,136500,High,278460,5460
+Mexico,136500,Low,,
+Mexico,136500,Medium,,
+Mexico,136500,None,,
+Mexico,136560,High,,
+Mexico,136560,Low,273120,0
+Mexico,136560,Medium,,
+Mexico,136560,None,,
+Mexico,147750,High,159570,11820
+Mexico,147750,Low,,
+Mexico,147750,Medium,,
+Mexico,147750,None,,
+Mexico,158750,High,,
+Mexico,158750,Low,,
+Mexico,158750,Medium,350520,33020
+Mexico,158750,None,,
+Mexico,184800,High,,
+Mexico,184800,Low,,
+Mexico,184800,Medium,177100,-7700
+Mexico,184800,None,,
+Mexico,187200,High,,
+Mexico,187200,Low,,
+Mexico,187200,Medium,239400,52200
+Mexico,187200,None,,
+Mexico,189000,High,169312.5,-19687.5
+Mexico,189000,Low,,
+Mexico,189000,Medium,,
+Mexico,189000,None,,
+Mexico,197000,High,,
+Mexico,197000,Low,,
+Mexico,197000,Medium,,
+Mexico,197000,None,236400,39400
+Mexico,199200,High,,
+Mexico,199200,Low,203350,4150
+Mexico,199200,Medium,,
+Mexico,199200,None,,
+Mexico,200250,High,206658,6408
+Mexico,200250,Low,,
+Mexico,200250,Medium,,
+Mexico,200250,None,,
+Mexico,218760,High,,
+Mexico,218760,Low,225596.25,6836.25
+Mexico,218760,Medium,,
+Mexico,218760,None,,
+Mexico,230360,High,545776,85056
+Mexico,230360,Low,,
+Mexico,230360,Medium,,
+Mexico,230360,None,,
+Mexico,239500,High,,
+Mexico,239500,Low,,
+Mexico,239500,Medium,,
+Mexico,239500,None,287400,47900
+Mexico,253200,High,,
+Mexico,253200,Low,,
+Mexico,253200,Medium,240012.5,-13187.5
+Mexico,253200,None,,
+Mexico,254800,High,,
+Mexico,254800,Low,,
+Mexico,254800,Medium,322420,67620
+Mexico,254800,None,,
+Mexico,257400,High,,
+Mexico,257400,Low,525525,10725
+Mexico,257400,Medium,,
+Mexico,257400,None,,
+Mexico,258720,High,474320,-43120
+Mexico,258720,Low,,
+Mexico,258720,Medium,,
+Mexico,258720,None,,
+Mexico,275000,High,,
+Mexico,275000,Low,,
+Mexico,275000,Medium,313500,38500
+Mexico,275000,None,,
+Mexico,275250,High,,
+Mexico,275250,Low,323694,48444
+Mexico,275250,Medium,,
+Mexico,275250,None,,
+Mexico,311220,High,368676,57456
+Mexico,311220,Low,,
+Mexico,311220,Medium,,
+Mexico,311220,None,,
+Mexico,314600,High,,
+Mexico,314600,Low,419265,104665
+Mexico,314600,Medium,,
+Mexico,314600,None,,
+Mexico,338520,High,303257.5,-35262.5
+Mexico,338520,Low,,
+Mexico,338520,Medium,,
+Mexico,338520,None,,
+Mexico,354120,High,,
+Mexico,354120,Low,,
+Mexico,354120,Medium,877128,168888
+Mexico,354120,None,,
+Mexico,362700,High,429660,66960
+Mexico,362700,Low,,
+Mexico,362700,Medium,,
+Mexico,362700,None,,
+Mexico,363220,High,,
+Mexico,363220,Low,968121,241681
+Mexico,363220,Medium,,
+Mexico,363220,None,,
+Mexico,401750,High,,
+Mexico,401750,Low,,
+Mexico,401750,Medium,457995,56245
+Mexico,401750,None,,
+Mexico,426920,High,,
+Mexico,426920,Low,557459,130539
+Mexico,426920,Medium,,
+Mexico,426920,None,,
+Mexico,436540,High,,
+Mexico,436540,Low,,
+Mexico,436540,Medium,552391,115851
+Mexico,436540,None,,
+Mexico,484900,High,,
+Mexico,484900,Low,626640,141740
+Mexico,484900,Medium,,
+Mexico,484900,None,,
+Mexico,504400,High,,
+Mexico,504400,Low,665420,161020
+Mexico,504400,Medium,,
+Mexico,504400,None,,
+Mexico,537500,High,567600,30100
+Mexico,537500,Low,,
+Mexico,537500,Medium,,
+Mexico,537500,None,,
+Mexico,559260,High,639922.5,80662.5
+Mexico,559260,Low,,
+Mexico,559260,Medium,,
+Mexico,559260,None,,
+Mexico,615000,High,,
+Mexico,615000,Low,,
+Mexico,615000,Medium,1357920,127920
+Mexico,615000,None,,
+Mexico,628420,High,,
+Mexico,628420,Low,,
+Mexico,628420,Medium,769814.5,141394.5
+Mexico,628420,None,,
+Mexico,641250,High,,
+Mexico,641250,Low,,
+Mexico,641250,Medium,700245,58995
+Mexico,641250,None,,
+Mexico,651250,High,679905,28655
+Mexico,651250,Low,,
+Mexico,651250,Medium,,
+Mexico,651250,None,,
+Mexico,686750,High,,
+Mexico,686750,Low,,
+Mexico,686750,Medium,766413,79663
+Mexico,686750,None,,
+Mexico,741260,High,848172.5,106912.5
+Mexico,741260,Low,,
+Mexico,741260,Medium,,
+Mexico,741260,None,,
+United States of America,1158,High,8337.6,6021.6
+United States of America,1158,Low,,
+United States of America,1158,Medium,,
+United States of America,1158,None,,
+United States of America,1315,High,,
+United States of America,1315,Low,,
+United States of America,1315,Medium,1730.54,415.53999999999996
+United States of America,1315,None,,
+United States of America,1900,High,2367.4,467.4000000000001
+United States of America,1900,Low,,
+United States of America,1900,Medium,,
+United States of America,1900,None,,
+United States of America,2670,High,9078,3738
+United States of America,2670,Low,,
+United States of America,2670,Medium,,
+United States of America,2670,None,,
+United States of America,2735,High,,
+United States of America,2735,Low,,
+United States of America,2735,Medium,3560.9700000000003,825.9700000000003
+United States of America,2735,None,,
+United States of America,2736,High,,
+United States of America,2736,Low,,
+United States of America,2736,Medium,,
+United States of America,2736,None,10944,8208
+United States of America,2742,High,18645.6,13161.599999999999
+United States of America,2742,Low,,
+United States of America,2742,Medium,,
+United States of America,2742,None,,
+United States of America,2850,High,,
+United States of America,2850,Low,,
+United States of America,2850,Medium,7581,1881
+United States of America,2850,None,,
+United States of America,3390,High,,
+United States of America,3390,Low,,
+United States of America,3390,Medium,4366.32,976.3199999999997
+United States of America,3390,None,,
+United States of America,3426,High,,
+United States of America,3426,Low,26859.84,20007.84
+United States of America,3426,Medium,,
+United States of America,3426,None,,
+United States of America,4108.5,High,,
+United States of America,4108.5,Low,15940.98,11832.48
+United States of America,4108.5,Medium,,
+United States of America,4108.5,None,,
+United States of America,4365,High,,
+United States of America,4365,Low,,
+United States of America,4365,Medium,8031.599999999999,3666.5999999999995
+United States of America,4365,None,,
+United States of America,4395,High,,
+United States of America,4395,Low,16876.8,12481.8
+United States of America,4395,Medium,,
+United States of America,4395,None,,
+United States of America,5418,High,18421.2,13003.2
+United States of America,5418,Low,,
+United States of America,5418,Medium,,
+United States of America,5418,None,,
+United States of America,5550,High,,
+United States of America,5550,Low,,
+United States of America,5550,Medium,7908.75,2358.75
+United States of America,5550,None,,
+United States of America,5574,High,,
+United States of America,5574,Low,22073.04,16499.04
+United States of America,5574,Medium,,
+United States of America,5574,None,,
+United States of America,5715,High,,
+United States of America,5715,Low,,
+United States of America,5715,Medium,,
+United States of America,5715,None,16002,4572
+United States of America,5841,High,,
+United States of America,5841,Low,22663.08,16822.08
+United States of America,5841,Medium,,
+United States of America,5841,None,,
+United States of America,5859,High,,
+United States of America,5859,Low,,
+United States of America,5859,Medium,,
+United States of America,5859,None,23436,17577
+United States of America,5868,High,,
+United States of America,5868,Low,,
+United States of America,5868,Medium,21359.52,15491.52
+United States of America,5868,None,,
+United States of America,5967,High,,
+United States of America,5967,Low,23629.32,17662.32
+United States of America,5967,Medium,,
+United States of America,5967,None,,
+United States of America,6045,High,20794.8,14749.8
+United States of America,6045,Low,,
+United States of America,6045,Medium,,
+United States of America,6045,None,,
+United States of America,6060,High,10423.2,4363.200000000001
+United States of America,6060,Low,,
+United States of America,6060,Medium,,
+United States of America,6060,None,,
+United States of America,6150,High,,
+United States of America,6150,Low,,
+United States of America,6150,Medium,,
+United States of America,6150,None,18450,6150
+United States of America,6423,High,,
+United States of America,6423,Low,,
+United States of America,6423,Medium,,
+United States of America,6423,None,25692,19269
+United States of America,6490,High,7904.82,1414.8199999999997
+United States of America,6490,Low,,
+United States of America,6490,Medium,,
+United States of America,6490,None,,
+United States of America,6710,High,,
+United States of America,6710,Low,19324.8,5904.799999999999
+United States of America,6710,Medium,,
+United States of America,6710,None,,
+United States of America,6770,High,8936.4,2166.3999999999996
+United States of America,6770,Low,,
+United States of America,6770,Medium,,
+United States of America,6770,None,,
+United States of America,7192.5,High,8760.465,1567.9649999999992
+United States of America,7192.5,Low,,
+United States of America,7192.5,Medium,,
+United States of America,7192.5,None,,
+United States of America,7360,High,,
+United States of America,7360,Low,14131.2,6771.200000000001
+United States of America,7360,Medium,,
+United States of America,7360,None,,
+United States of America,7895,High,9837.17,1942.17
+United States of America,7895,Low,,
+United States of America,7895,Medium,,
+United States of America,7895,None,,
+United States of America,7900,High,10665,2765
+United States of America,7900,Low,,
+United States of America,7900,Medium,,
+United States of America,7900,None,,
+United States of America,8169,High,,
+United States of America,8169,Low,,
+United States of America,8169,Medium,30715.44,22546.44
+United States of America,8169,None,,
+United States of America,8742,High,60144.96,42660.96
+United States of America,8742,Low,,
+United States of America,8742,Medium,,
+United States of America,8742,None,,
+United States of America,9730,High,,
+United States of America,9730,Low,,
+United States of America,9730,Medium,17708.6,7978.5999999999985
+United States of America,9730,None,,
+United States of America,10065,High,,
+United States of America,10065,Low,13809.18,3744.1800000000003
+United States of America,10065,Medium,,
+United States of America,10065,None,,
+United States of America,10560,High,,
+United States of America,10560,Low,20275.2,9715.2
+United States of America,10560,Medium,,
+United States of America,10560,None,,
+United States of America,11175,High,,
+United States of America,11175,Low,,
+United States of America,11175,Medium,21009,9834
+United States of America,11175,None,,
+United States of America,11530,High,,
+United States of America,11530,Low,,
+United States of America,11530,Medium,32514.6,9454.599999999999
+United States of America,11530,None,,
+United States of America,11635,High,,
+United States of America,11635,Low,,
+United States of America,11635,Medium,15474.55,3839.5499999999993
+United States of America,11635,None,,
+United States of America,11640,High,14666.4,3026.3999999999996
+United States of America,11640,Low,,
+United States of America,11640,Medium,,
+United States of America,11640,None,,
+United States of America,12360,High,,
+United States of America,12360,Low,24225.6,11865.599999999999
+United States of America,12360,Medium,,
+United States of America,12360,None,,
+United States of America,12645,High,,
+United States of America,12645,Low,17525.97,4880.969999999999
+United States of America,12645,Medium,,
+United States of America,12645,None,,
+United States of America,12650,High,,
+United States of America,12650,Low,,
+United States of America,12650,Medium,24035,11385
+United States of America,12650,None,,
+United States of America,12820,High,,
+United States of America,12820,Low,,
+United States of America,12820,Medium,47177.6,21537.6
+United States of America,12820,None,,
+United States of America,14210,High,,
+United States of America,14210,Low,,
+United States of America,14210,Medium,26430.6,12220.599999999999
+United States of America,14210,None,,
+United States of America,14535,High,,
+United States of America,14535,Low,,
+United States of America,14535,Medium,37442.16,8372.160000000003
+United States of America,14535,None,,
+United States of America,14980,High,36071.84,6111.8399999999965
+United States of America,14980,Low,,
+United States of America,14980,Medium,,
+United States of America,14980,None,,
+United States of America,15140,High,,
+United States of America,15140,Low,22482.9,7342.9000000000015
+United States of America,15140,Medium,,
+United States of America,15140,None,,
+United States of America,15660,High,,
+United States of America,15660,Low,61387.2,30067.199999999997
+United States of America,15660,Medium,,
+United States of America,15660,None,,
+United States of America,17430,High,29979.6,12549.599999999999
+United States of America,17430,Low,,
+United States of America,17430,Medium,,
+United States of America,17430,None,,
+United States of America,17670,High,22794.3,5124.299999999999
+United States of America,17670,Low,,
+United States of America,17670,Medium,,
+United States of America,17670,None,,
+United States of America,19250,High,,
+United States of America,19250,Low,28297.5,9047.5
+United States of America,19250,Medium,,
+United States of America,19250,None,,
+United States of America,20300,High,,
+United States of America,20300,Low,,
+United States of America,20300,Medium,28623,8323
+United States of America,20300,None,,
+United States of America,21980,High,,
+United States of America,21980,Low,,
+United States of America,21980,Medium,30991.8,9011.8
+United States of America,21980,None,,
+United States of America,22462.5,High,,
+United States of America,22462.5,Low,31133.024999999998,8670.524999999998
+United States of America,22462.5,Medium,,
+United States of America,22462.5,None,,
+United States of America,25480,High,33633.6,8153.5999999999985
+United States of America,25480,Low,,
+United States of America,25480,Medium,,
+United States of America,25480,None,,
+United States of America,25670,High,66998.7,15658.699999999997
+United States of America,25670,Low,,
+United States of America,25670,Medium,,
+United States of America,25670,None,,
+United States of America,26410,High,45953.4,19543.4
+United States of America,26410,Low,,
+United States of America,26410,Medium,,
+United States of America,26410,None,,
+United States of America,26630,High,,
+United States of America,26630,Low,,
+United States of America,26630,Medium,101194,47934
+United States of America,26630,None,,
+United States of America,28320,High,,
+United States of America,28320,Low,,
+United States of America,28320,Medium,53808,25488
+United States of America,28320,None,,
+United States of America,29310,High,,
+United States of America,29310,Low,,
+United States of America,29310,Medium,40887.45,11577.449999999997
+United States of America,29310,None,,
+United States of America,31995,High,42713.325,10718.324999999999
+United States of America,31995,Low,,
+United States of America,31995,Medium,,
+United States of America,31995,None,,
+United States of America,36750,High,,
+United States of America,36750,Low,,
+United States of America,36750,Medium,50163.75,13413.75
+United States of America,36750,None,,
+United States of America,39600,High,,
+United States of America,39600,Low,40837.5,1237.5
+United States of America,39600,Medium,,
+United States of America,39600,None,,
+United States of America,69160,High,,
+United States of America,69160,Low,91238,22078
+United States of America,69160,Medium,,
+United States of America,69160,None,,
+United States of America,69480,High,65137.5,-4342.5
+United States of America,69480,Low,,
+United States of America,69480,Medium,,
+United States of America,69480,None,,
+United States of America,70200,High,83160,12960
+United States of America,70200,Low,,
+United States of America,70200,Medium,,
+United States of America,70200,None,,
+United States of America,71240,High,,
+United States of America,71240,Low,184128,41648
+United States of America,71240,Medium,,
+United States of America,71240,None,,
+United States of America,79560,High,,
+United States of America,79560,Low,164092.5,4972.5
+United States of America,79560,Medium,,
+United States of America,79560,None,,
+United States of America,87240,High,,
+United States of America,87240,Low,179932.5,5452.5
+United States of America,87240,Medium,,
+United States of America,87240,None,,
+United States of America,90740,High,,
+United States of America,90740,Low,117264,26524
+United States of America,90740,Medium,,
+United States of America,90740,None,,
+United States of America,103320,High,,
+United States of America,103320,Low,,
+United States of America,103320,Medium,204487.5,-2152.5
+United States of America,103320,None,,
+United States of America,156520,High,,
+United States of America,156520,Low,,
+United States of America,156520,Medium,400330,87290
+United States of America,156520,None,,
+United States of America,189020,High,,
+United States of America,189020,Low,,
+United States of America,189020,Medium,478366,100326
+United States of America,189020,None,,
+United States of America,191520,High,179550,-11970
+United States of America,191520,Low,,
+United States of America,191520,Medium,,
+United States of America,191520,None,,
+United States of America,202000,High,,
+United States of America,202000,Low,,
+United States of America,202000,Medium,223008,21008
+United States of America,202000,None,,
+United States of America,216480,High,202950,-13530
+United States of America,216480,Low,,
+United States of America,216480,Medium,,
+United States of America,216480,None,,
+United States of America,247750,High,,
+United States of America,247750,Low,,
+United States of America,247750,Medium,564870,69370
+United States of America,247750,None,,
+United States of America,252500,High,521160,16160
+United States of America,252500,Low,,
+United States of America,252500,Medium,,
+United States of America,252500,None,,
+United States of America,255450,High,299171.25,43721.25
+United States of America,255450,Low,,
+United States of America,255450,Medium,,
+United States of America,255450,None,,
+United States of America,256360,High,607376,94656
+United States of America,256360,Low,,
+United States of America,256360,Medium,,
+United States of America,256360,None,,
+United States of America,286440,High,262570,-23870
+United States of America,286440,Low,,
+United States of America,286440,Medium,,
+United States of America,286440,None,,
+United States of America,292560,High,259037.5,-33522.5
+United States of America,292560,Low,,
+United States of America,292560,Medium,,
+United States of America,292560,None,,
+United States of America,306020,High,354277,48257
+United States of America,306020,Low,,
+United States of America,306020,Medium,,
+United States of America,306020,None,,
+United States of America,330600,High,,
+United States of America,330600,Low,,
+United States of America,330600,Medium,323712.5,-6887.5
+United States of America,330600,None,,
+United States of America,335640,High,,
+United States of America,335640,Low,,
+United States of America,335640,Medium,636317.5,-34962.5
+United States of America,335640,None,,
+United States of America,338520,High,,
+United States of America,338520,Low,,
+United States of America,338520,Medium,,
+United States of America,338520,None,352625,14105
+United States of America,341280,High,305730,-35550
+United States of America,341280,Low,,
+United States of America,341280,Medium,,
+United States of America,341280,None,,
+United States of America,343000,High,,
+United States of America,343000,Low,,
+United States of America,343000,Medium,765576,79576
+United States of America,343000,None,,
+United States of America,351390,High,,
+United States of America,351390,Low,,
+United States of America,351390,Medium,430452.75,79062.75
+United States of America,351390,None,,
+United States of America,359040,High,,
+United States of America,359040,Low,,
+United States of America,359040,Medium,355300,-3740
+United States of America,359040,None,,
+United States of America,413460,High,387618.75,-25841.25
+United States of America,413460,Low,,
+United States of America,413460,Medium,,
+United States of America,413460,None,,
+United States of America,435240,High,,
+United States of America,435240,Low,,
+United States of America,435240,Medium,430706.25,-4533.75
+United States of America,435240,None,,
+United States of America,457860,High,,
+United States of America,457860,Low,,
+United States of America,457860,Medium,573205.5,115345.5
+United States of America,457860,None,,
+United States of America,466750,High,,
+United States of America,466750,Low,,
+United States of America,466750,Medium,509691,42941
+United States of America,466750,None,,
+United States of America,521820,High,597082.5,75262.5
+United States of America,521820,Low,,
+United States of America,521820,Medium,,
+United States of America,521820,None,,
+United States of America,538460,High,,
+United States of America,538460,Low,,
+United States of America,538460,Medium,659613.5,121153.5
+United States of America,538460,None,,
+United States of America,573500,High,1238760,91760
+United States of America,573500,Low,,
+United States of America,573500,Medium,,
+United States of America,573500,None,,
+United States of America,575250,High,,
+United States of America,575250,Low,683397,108147
+United States of America,575250,Medium,,
+United States of America,575250,None,,
+United States of America,601380,High,728595,127215
+United States of America,601380,Low,,
+United States of America,601380,Medium,,
+United States of America,601380,None,,
+United States of America,615000,High,634680,19680
+United States of America,615000,Low,,
+United States of America,615000,Medium,,
+United States of America,615000,None,,
+United States of America,624500,High,,
+United States of America,624500,Low,741906,117406
+United States of America,624500,Medium,,
+United States of America,624500,None,,
+United States of America,635250,High,655578,20328
+United States of America,635250,Low,,
+United States of America,635250,Medium,,
+United States of America,635250,None,,
+United States of America,643500,High,656370,12870
+United States of America,643500,Low,,
+United States of America,643500,Medium,,
+United States of America,643500,None,,
+United States of America,711000,High,,
+United States of America,711000,Low,827604,116604
+United States of America,711000,Medium,,
+United States of America,711000,None,,
+United States of America,726250,High,,
+United States of America,726250,Low,862785,136535
+United States of America,726250,Medium,,
+United States of America,726250,None,,
+United States of America,729500,High,,
+United States of America,729500,Low,840384,110884
+United States of America,729500,Medium,,
+United States of America,729500,None,,
+United States of America,729820,High,884205,154385
+United States of America,729820,Low,,
+United States of America,729820,Medium,,
+United States of America,729820,None,,
+United States of America,748250,High,808110,59860
+United States of America,748250,Low,,
+United States of America,748250,Medium,,
+United States of America,748250,None,,
+United States of America,873750,High,922680,48930
+United States of America,873750,Low,,
+United States of America,873750,Medium,,
+United States of America,873750,None,,
+United States of America,897000,High,,
+United States of America,897000,Low,1159200,262200
+United States of America,897000,Medium,,
+United States of America,897000,None,,
