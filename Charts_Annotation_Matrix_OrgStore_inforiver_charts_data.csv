@@ -1,4 +1,4 @@
-"SA Covid Data.Days ",SA Covid Data.Group,SA Covid Data.Wave,Sum(SA Covid Data.in %),CountNonNull(SA Covid Data.Order2)
+SA Covid Data.Days ,SA Covid Data.Group,SA Covid Data.Wave,Sum(SA Covid Data.in %),CountNonNull(SA Covid Data.Order2)
 1899-12-29T18:38:50.000Z,Cases,Beta wave,0,13
 1899-12-29T18:38:50.000Z,Cases,Delta wave,0,19
 1899-12-29T18:38:50.000Z,Cases,First wave,0,7
